@@ -1,0 +1,91 @@
+/* 头部 start */
+li {
+	list-style: none;
+}
+header {
+	font-family: 'icomoon';
+	position: relative;
+	height: 1.226667rem;
+	background-color: #fa3432;
+}
+header p {
+	text-align: center;
+	line-height: 1.226667rem;
+	font-size: .373333rem;
+	color: #fff;
+}
+header span{
+	position: absolute;
+    color: #fff;
+	font-size: .666667rem;
+	top: .306667rem;
+	left: .426667rem;
+}
+header em {
+	position: absolute;
+	top: .306667rem;
+	right: .48rem;
+	font-size: .666667rem;
+	color: #fff;
+}
+/* 头部 end */
+.content {
+	position: relative;
+	height: 4.4rem;
+	background: url("../img/login_img.png") no-repeat center center #f9f9f9;
+}
+.content .dot {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 1.066667rem;
+	height: 1.066667rem;
+	background-color: #959595;
+	border-radius: 50%;
+}
+.content .dot li {
+	width: .093333rem;
+	height: .093333rem;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.content1 p {
+	font-size: .346667rem;
+	color: #0e0e0e;
+	margin-left: .506667rem;
+	margin-bottom: .002933rem;
+}
+ .content1 form input {
+	width: 8.213333rem;
+	height: 1.026667rem;
+	border: 1px solid #a2a2a2;
+	margin-left: .506667rem;
+	margin-right: .32rem;
+	background: url("../img/手机.png") no-repeat 10px center;
+	background-size: .506667rem;
+	font-size: .453333rem ;
+	color: #a2a2a2;
+	padding-left: .933333rem;
+}
+.but {
+	margin: 0 auto;
+	width: 9.226667rem;
+	height: 1.08rem;
+	border-radius: .133333rem;
+	background-color: #fa3432;
+	margin: .306667rem .24rem .266667rem .466667rem;
+}
+ a .but {
+	text-align: center;
+	line-height: 1.08rem;
+	font-size: .4rem;
+	color: #fff;
+}
+p {
+	text-align: center;
+	font-size: .293333rem;
+	color: #707070;
+}

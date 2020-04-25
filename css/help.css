@@ -1,0 +1,124 @@
+/* 头部 start */
+li {
+	list-style: none;
+}
+header {
+	font-family: 'icomoon';
+	position: relative;
+	height: 1.226667rem;
+	background-color: #fa3432;
+}
+header p {
+	text-align: center;
+	line-height: 1.226667rem;
+	font-size: .373333rem;
+	color: #fff;
+}
+header span{
+	position: absolute;
+    color: #fff;
+	font-size: .666667rem;
+	top: .306667rem;
+	left: .426667rem;
+}
+header em {
+	position: absolute;
+	top: .306667rem;
+	right: .48rem;
+	font-size: .666667rem;
+	color: #fff;
+}
+/* 头部 end */
+/* 内容 start  */
+ul {
+	background-color: #f9f9f9;
+	padding-top: .2rem;
+}
+ul li {
+	font-size: .333333rem;
+	color: #4c4b4d;
+	margin-bottom: .36rem;                    */
+	border: 1px solid red;
+}
+ul li img {
+	 width: .773333rem;
+	 height: .773333rem;
+	 margin-left: .4rem;
+	 margin-right: .28rem;
+}
+ul span {
+    float: right;
+	margin-right: .453333rem;
+	margin-top: .133333rem;
+	font-size: 0.4rem;
+	color: #faa243; 
+}
+ul .dott {
+	position: relative;
+}
+ul .dott .dot {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width:  1.026667rem;
+	height: 1.026667rem;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, .3);
+}
+ul .dott .dot em{
+	width: .093333rem;
+	height: .093333rem;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.kefu img {
+	width: 1.04rem;
+	height: 1.066667rem;
+	margin: .32rem .373333rem .226667rem .4rem;
+}
+.kefu{
+	display: flex;
+	background-color: #fff;
+}
+.kefu .kefu1 {
+	margin-top: .32rem;
+}
+.kefu h4 {
+	font-size: .373333rem;
+	color: #373636;
+	margin-bottom: .133333rem;
+}
+.kefu span {
+	font-size: .32rem;
+	color: #28aed4;
+}
+.kefu p {
+	font-size: .213333rem;
+	color: #9d9c9c;
+}
+/* 内容 end  */
+/* 底部 foot start */
+footer{
+	height: 2.24rem;
+	padding-top: .6rem;
+	background-color: #fff;
+	border: 1px solid #f0f0ef;
+	margin-top: .32rem;
+}
+footer .foot{
+	text-align: center;
+}
+footer .foot h4{
+	font-size: .32rem;
+	color: #494848;
+	margin-bottom: .32rem;
+}
+footer .foot p{
+	font-size: .32rem;
+	color: #9a9b9c;
+	margin-bottom: .613333rem;
+}
+/* 底部 foot end */

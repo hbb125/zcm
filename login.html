@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>登陆</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/login.css">
+	<script>
+		// rem适配
+		window.onload = function () {
+			let fs = document.documentElement.clientWidth * 75 / 750;
+			document.querySelector("html").style.fontSize = fs + "px";
+		}
+	</script>
+	<style>
+		@font-face {
+			font-family: 'icomoon';
+			src: url('fonts/icomoon.eot?dq2fy6');
+			src: url('fonts/icomoon.eot?dq2fy6#iefix') format('embedded-opentype'),
+				url('fonts/icomoon.ttf?dq2fy6') format('truetype'),
+				url('fonts/icomoon.woff?dq2fy6') format('woff'),
+				url('fonts/icomoon.svg?dq2fy6#icomoon') format('svg');
+			font-weight: normal;
+			font-style: normal;
+			font-display: block;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- 头部 start -->
+	<header>
+		<p>验证手机号</p>
+		<span></span>
+		<em></em>
+	</header>
+	<!-- 头部 end -->
+	<div class="content">
+		<div class="dot">
+			<li></li>
+			<li></li>
+			<li></li>
+		</div>
+	</div>
+	<div class="content1">
+		<p>请输入手机号码:</p>
+		<form action="">
+			<input type="tel" value="请输入手机号码">
+		</form>
+	</div>
+	<a href="#">
+		<div class="but">
+			下一步
+		</div>
+	</a>
+	<p>阅读并同意 《招财猫用户使用及隐私协议》</p>
+</body>
+
+</html>

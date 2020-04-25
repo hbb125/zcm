@@ -107,8 +107,8 @@ li{
 	list-style: none;
 }
 .hot .more .more1 li{
-	width: 7px;
-	height: 7px;
+	width: .093333rem;
+	height: .093333rem;
 	background-color: #fff;
 	border-radius: 50%;
 }
