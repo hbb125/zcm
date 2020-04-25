@@ -14,7 +14,7 @@ header p {
 	font-size: .373333rem;
 	color: #fff;
 }
-header span{
+header span a{
 	position: absolute;
     color: #fff;
 	font-size: .666667rem;
