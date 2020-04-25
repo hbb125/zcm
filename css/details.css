@@ -222,3 +222,37 @@ footer a em {
 }
 
 /* footer end */
+.mask {
+	display: none;
+  position: absolute;
+  top: 1.226667rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5);
+}
+.mask .nav {
+	font-family: 'icomoon';
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: .9rem;
+	background-color: #fff;
+}
+* {
+	box-sizing: border-box;
+}
+.mask .nav a {
+	padding-top: .133333rem;
+	text-align: center;
+	font-size: .25rem;
+	width: 50%;
+	color: red;
+	border-right: .013333rem solid red;
+}
+.mask .nav .last {
+	border-right:.013333rem solid transparent;
+}
+.mask .nav a p {
+	font-size: .16rem;
+}

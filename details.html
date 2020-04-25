@@ -34,7 +34,7 @@
 	<header>
 		<p>优房计划2467号1期</p>
 		<span></span>
-		<em></em>
+		<em id="menu1"></em>
 	</header>
 	<!-- 头部 end -->
 	<!-- 内容 content start -->
@@ -102,6 +102,37 @@
 		<a href="#"><em>立即投资</em></a>
 	</footer>
 	<!-- footer end -->
+	<div class="mask" id="mask1">
+		<div class="nav">
+			<a href="#">
+				<i></i>
+			    <p>首页</p>
+			</a>
+			<a href="#">
+				<i></i>
+			    <p>安全保障</p>
+			</a>
+			<a href="#">
+				<i></i>
+			    <p>我要投资</p>
+			</a>
+			<a href="#" class="last">
+				<i></i>
+			    <p>账户中心</p>
+			</a>
+		</div>
+	</div>
+	<script>
+		let mask=document.getElementById("mask1");
+		let menu=document.getElementById("menu1");
+		menu.onclick=function() {
+			mask.style.display= "block";
+		}
+		mask.onclick = function(){
+			mask.style.display= "none";
+
+		}
+	</script>
 </body>
 
 </html>
