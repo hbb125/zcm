@@ -1,4 +1,7 @@
 /* 头部 start */
+body {
+	background-color: #fff;
+}
 li {
 	list-style: none;
 }
@@ -91,9 +94,10 @@ header em {
 	width: 70%;
 	height: 70%;
 }
+
 .content2 li {
 	display: flex;
-	padding-top: .666667rem;
+	padding-top: .4rem;
 	/* align-items: center; */
 }
 .content2 li span {
