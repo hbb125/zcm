@@ -42,6 +42,7 @@ body {
   dd,
   header,
   footer {
+    font-weight: normal;
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;

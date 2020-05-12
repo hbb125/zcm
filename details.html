@@ -7,6 +7,7 @@
 	<title>详情页</title>
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/details.css">
+	<link rel="stylesheet" href="./iconfont1/iconfont.css">
 	<script>
 		// rem适配
 		window.onload = function () {
@@ -25,6 +26,24 @@
 			font-weight: normal;
 			font-style: normal;
 			font-display: block;
+		}
+
+		@font-face {
+			font-family: 'iconfont';
+			src: url('iconfont.eot');
+			src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+				url('iconfont.woff2') format('woff2'),
+				url('iconfont.woff') format('woff'),
+				url('iconfont.ttf') format('truetype'),
+				url('iconfont.svg#iconfont') format('svg');
+		}
+
+		.iconfont {
+			font-family: "iconfont" !important;
+			font-size: .373333rem;
+			font-style: normal;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
 		}
 	</style>
 </head>
@@ -105,31 +124,35 @@
 	<div class="mask" id="mask1">
 		<div class="nav">
 			<a href="./index.html">
-				<i></i>
-			    <p> 首页</p>
+				<i><span class="iconfont">&#xe6b3;</span></i>
+				<!-- <i></i> -->
+				<p> 首页</p>
 			</a>
 			<a href="">
-				<i></i>
-			    <p>安全保障</p>
+				<i><span class="iconfont">&#xe627;</span></i>
+				<!-- <i></i> -->
+				<p>安全保障</p>
 			</a>
 			<a href="#">
-				<i></i>
-			    <p>我要投资</p>
+				<i><span class="iconfont">&#xe629;</span></i>
+				<!-- <i></i> -->
+				<p>我要投资</p>
 			</a>
 			<a href="#" class="last">
-				<i></i>
-			    <p>账户中心</p>
+				<i><span class="iconfont">&#xe60a;</span></i>
+				<!-- <i></i> -->
+				<p>账户中心</p>
 			</a>
 		</div>
 	</div>
 	<script>
-		let mask=document.getElementById("mask1");
-		let menu=document.getElementById("menu1");
-		menu.onclick=function() {
-			mask.style.display= "block";
+		let mask = document.getElementById("mask1");
+		let menu = document.getElementById("menu1");
+		menu.onclick = function () {
+			mask.style.display = "block";
 		}
-		mask.onclick = function(){
-			mask.style.display= "none";
+		mask.onclick = function () {
+			mask.style.display = "none";
 
 		}
 	</script>

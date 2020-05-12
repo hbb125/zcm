@@ -38,8 +38,15 @@ header{
 .nav .shouye{
 	color: #ff3636;
 }
+.nav div:nth-child(2):active a{
+	color: #ff3636;
+}
+.nav div:nth-child(3):active a{
+	color: #ff3636;
+
+}
 /* nav end */
-/* 轮播图 start */
+/* 轮播图 start	 */
 .slider{
 	height: 4.84rem;
 	background-color: pink;
@@ -141,6 +148,7 @@ li{
 .content ul li .data .v{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .content ul li .data .v span{
 	font-size: .333333rem;

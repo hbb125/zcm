@@ -1,0 +1,58 @@
+{
+  "id": "1780958",
+  "name": "招财猫",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2127118",
+      "name": "账户",
+      "font_class": "account",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "3924215",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "13488807",
+      "name": "首 页",
+      "font_class": "shouye",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "633687",
+      "name": "投资",
+      "font_class": "touzi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "2278335",
+      "name": "投资",
+      "font_class": "icon-test",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "5485988",
+      "name": "投资",
+      "font_class": "touzi1",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "14187409",
+      "name": "导航-投资建议查询",
+      "font_class": "caidan-touzijianyichaxun",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
